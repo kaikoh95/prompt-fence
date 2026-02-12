@@ -1,0 +1,10 @@
+{
+  "name": "prompt-fence",
+  "version": "0.1.0",
+  "description": "CLI linter for LLM prompts — detect injection vulnerabilities and anti-patterns",
+  "bin": { "prompt-fence": "./src/index.js" },
+  "main": "./src/scanner.js",
+  "type": "module",
+  "keywords": ["llm", "prompt", "security", "linter", "injection"],
+  "license": "MIT"
+}
